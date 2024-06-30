@@ -69,7 +69,7 @@
                         <mxRectangle width="147" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="-" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=1;dashed=1;strokeColor=default;fontSize=11;" vertex="1" parent="17">
+                <mxCell id="19" value="再レンダリング" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=1;dashed=1;strokeColor=default;fontSize=11;" vertex="1" parent="17">
                     <mxGeometry x="147" width="146" height="40" as="geometry">
                         <mxRectangle width="146" height="40" as="alternateBounds"/>
                     </mxGeometry>
