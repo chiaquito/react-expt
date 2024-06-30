@@ -1,12 +1,12 @@
-import { useEffect, useState } from 'react'
+import { FC, useEffect, useState } from 'react'
 import { ChildComponent } from './ChildComponent'
 
-function App() {
+export const App:FC = ()=> {
   const [parentState, setParentState] = useState(0)
 
   useEffect(()=>{
     console.warn("親のコンポーネントがレンダリング")
-  },[parentState])
+  },)
 
   const clickHandler = () => {
     setParentState((preValue)=>preValue+1)
@@ -17,7 +17,8 @@ function App() {
      <p>App Component</p>
      <p>{parentState}</p>
      <button onClick={clickHandler}>親コンポーネントのボタン</button>
-     <ChildComponent/>
+     <ChildComponent parentState={parentState} parentClickHandler={clickHandler}
+     />
 
     </>
   )
